@@ -1,0 +1,150 @@
+<!-- saved from url=(0044)https://159.65.232.75/webex/joinmeeting.html -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>Join Meeting</title>
+    <style>
+      .hdr {
+        font-family: Verdana;
+        font-size: 10pt;
+        font-weight: bold;
+        color: #000000;
+        background-color: #99ccff;
+      }
+      .reg {
+        font-family: Verdana;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #000000;
+        background-color: #eeeeee;
+      }
+      .regr {
+        font-family: Verdana;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #ff0000;
+        background-color: #eeeeee;
+      }
+      .regb {
+        font-family: Verdana;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #0066ff;
+        background-color: #eeeeee;
+      }
+      .red {
+        font-family: Verdana;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #ff0000;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div align="center">
+      <table border="0" width="60%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td class="hdr" width="100%" colspan="2" align="center">
+              Meeting Page (m.php) - Join Meeting
+            </td>
+          </tr>
+          <form
+            name="joinmeeting"
+            method="POST"
+            action="https://comfamalab.webex.com/comfamalab/m.php"
+          >
+          <tr>
+            <td class="regr" width="50%" align="right">&nbsp;</td>
+            <td class="reg" width="50%" valign="baseline">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%" align="right">AT:&nbsp;&nbsp;</td>
+            <td class="regb" width="50%" valign="baseline">
+              JM&nbsp;
+              <input type="hidden" name="AT" size="20" value="JM" />
+            </td>
+          </tr>
+          <tr>
+            <td class="regr" width="50%" align="right">
+              Meeting Key (MK):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="text" name="MK" size="20" tabindex="1" />
+            </td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%" align="right">
+              Password (PW):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="password" name="PW" size="20" tabindex="2" />
+            </td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%" align="right">
+              Attendee Name (AN):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="text" name="AN" size="20" tabindex="3" />
+            </td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%" align="right">
+              Attendee Email (AE):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="text" name="AE" size="20" tabindex="4" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="reg" width="50%" align="right">
+              Call Out Phone Number (CO):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="text" name="CO" size="20" tabindex="5" />
+            </td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%" align="right">
+              Meeting Client Type (MC):&nbsp;&nbsp;
+            </td>
+            <td class="reg" width="50%">
+              <input type="text" name="MC" size="20" tabindex="6" />
+            </td>
+          </tr>
+          <tr>
+            <td class="regr" width="50%" align="right">
+              BackURL (BU):&nbsp;&nbsp;
+            </td>
+            <td class="regr" width="50%">
+              <input
+                type="text"
+                name="BU"
+                size="20"
+                tabindex="1"
+                value="&lt;enter the path of
+back.htm&gt;"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="reg" width="50%">&nbsp;</td>
+            <td class="reg" width="50%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="reg" width="100%" colspan="2" align="center">
+              <input type="submit" value="Submit" name="B1" tabindex="8" />
+              <input type="reset" value="Reset" name="B2" tabindex="9" /><br />
+              &nbsp;
+            </td>
+          </tr>
+        </form>
+        </tbody>
+      </table>
+      <p class="red">* Red field names represent required fields</p>
+    </div>
+  </body>
+</html>
